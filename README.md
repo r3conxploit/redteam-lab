@@ -18,9 +18,18 @@ A curated lab to practice and simulate offensive operations:
 ---
 
 ### 🗂️ Structure
-
-redteam-lab/ ├── initial-access/ --> Phishing, exploits, misconfig ├── privilege-escalation/--> Windows, Linux escalation ├── lateral-movement/ --> RDP, PsExec, Pass-the-Hash, etc ├── persistence/ --> Registry, Scheduled Task, WMI, etc ├── evasion-techniques/ --> AV bypass, Obfuscation, LOLBAS ├── c2-frameworks/ --> CobaltStrike, Sliver, Mythic ├── payloads/ --> Shells, Binaries, Droppers ├── reports/ --> Operation docs, adversary emulation └── README.md
-
+```text
+redteam-lab/
+├── initial-access/         → Phishing, exploits, misconfig
+├── privilege-escalation/   → Windows, Linux escalation
+├── lateral-movement/       → RDP, PsExec, Pass-the-Hash, etc
+├── persistence/            → Registry, Scheduled Task, WMI, etc
+├── evasion-techniques/     → AV bypass, Obfuscation, LOLBAS
+├── c2-frameworks/          → CobaltStrike, Sliver, Mythic
+├── payloads/               → Shells, Binaries, Droppers
+├── reports/                → Operation docs, adversary emulation
+└── README.md               → Entry point to the lab
+```
 
 ---
 

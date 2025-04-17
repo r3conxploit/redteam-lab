@@ -1,15 +1,28 @@
-<h1 align="center">🎯 REDTEAM-LAB</h1>
-<p align="center">
-  <i>Adversary simulation. Post-exploitation. Weaponization. </i><br>
-  <b>Real-world red team tactics — silently executed.</b>
-</p>
+<div align="center">
+
+```
+██████  ███████ ██████  ███████ ████████ ███████ █████  ███ 
+██   ██ ██      ██   ██   ██    ██      ██   ██ ████  ████
+██████  █████   ██    █   ██    █████   ███████ ██ ████ ██
+██   ██ ██      ██   ██   ██    ██      ██   ██ ██  ██  ██
+██   ██ ███████ ██████    ██    ███████ ██   ██ ██      ██ 
+```
+
+**r3conxploit / redteam-lab**
+_Offensive Security Toolkit for Adversary Simulation_
+
+</div>
 
 ---
 
-### 🧠 Lab Objective
+### 🎯 Overview
 
-A curated lab to practice and simulate offensive operations:
-- Post-exploitation techniques
+`redteam-lab` is a structured knowledge base and toolkit collection focused on Red Team operations — covering the full attack chain from Initial Access to Post-Exploitation and Evasion.
+
+### 🧭 Lab Topics
+
+- Initial access & exploitation
+- Privilege escalation (Windows & Linux)
 - Lateral movement & pivoting
 - C2 frameworks & implants
 - Evasion and persistence
@@ -17,8 +30,9 @@ A curated lab to practice and simulate offensive operations:
 
 ---
 
-### 🗂️ Structure
-```text
+### 📁 Structure
+
+```
 redteam-lab/
 ├── initial-access/         → Phishing, exploits, misconfig
 ├── privilege-escalation/   → Windows, Linux escalation
@@ -33,21 +47,20 @@ redteam-lab/
 
 ---
 
-### 🧰 Tools Preview
+### 🧪 Tools Preview
 
-| Category             | Tools & Frameworks                           |
-|----------------------|----------------------------------------------|
-| 🛠 C2 Frameworks      | Sliver, Mythic, Cobalt Strike, Brute Ratel   |
-| 🦠 Evasion            | Shellter, Veil, Obfuscator                   |
-| 🧪 Payloads           | MSFVenom, NimShell, Donut, Unicorn           |
-| 🛡 PrivEsc            | WinPEAS, LinPEAS, Seatbelt                   |
-| 📡 Lateral Movement   | PsExec, SMBexec, CrackMapExec                |
+| 🧩 Category            | 🔧 Tools & Frameworks                        |
+|-----------------------|---------------------------------------------|
+| ⚒️ C2 Frameworks       | Sliver, Mythic, Cobalt Strike, Brute Ratel |
+| 🧼 Evasion             | Shellter, Veil, Obfuscator                 |
+| 💥 Payloads            | MSFVenom, NimShell, Donut, Unicorn         |
+| 🛗 PrivEsc             | WinPEAS, LinPEAS, Seatbelt                 |
+| 🛰️ Lateral Movement     | PsExec, SMBexec, CrackMapExec              |
 
 ---
 
 ### 🚧 Work in Progress
 
-This repo is continuously evolving — stay tuned.  
-Pull requests are welcome. Let’s weaponize knowledge.
+This repo is continuously evolving — stay tuned.
 
-> 🕶️ _"Silent but deadly. That’s how we move."_ — r3conxploit
+> 🧠 _Built by r3conxploit with a stealthy mindset. Follow for more Red Team tradecraft._
